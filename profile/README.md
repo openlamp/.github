@@ -6,8 +6,8 @@
 </p>
 
 **Instant, 100% local stage-light control for musicians and makers** — drive cheap
-consumer smart LED lamps (Tuya / Smart Life, WLED) from a Stream Deck, a MIDI
-controller or the command line, with sub-200 ms response and zero cloud at runtime.
+consumer smart LED lamps — **WLED** (recommended) or Tuya / Smart Life — from a Stream Deck, a MIDI
+controller or the command line, with ~45 ms response on WLED and zero cloud at runtime.
 
 Made by **BenLab** with the help of Claude.
 
@@ -17,7 +17,7 @@ Each layer lives in its own repo so no layer is impacted by the others.
 
 ```
                  ┌───────────────────────────┐
-                 │        your lamps         │  Tuya (today) · WLED (testers wanted)
+                 │        your lamps         │  WLED (recommended) · Tuya (supported)
                  └────────────▲──────────────┘
                               │ persistent local connections
                  ┌────────────┴──────────────┐
